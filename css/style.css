@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+body {
+background-color: rgb(183, 207, 207);
+color: rgb(32, 43, 53);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+.titlepage{
+font-family: 'Righteous';
+font-size: 3.3em;
+}
+
+a{
+text-decoration: none;
+}
+
+h2{
+font-weight: 400;
+color: white;
+font-size: 2.5em;
+padding-top: 1.2em;
+}
+
+h3{
+font-weight: 200;
+}
+
+.listone{
+list-style: none;
+
+}
+
+.listtwo{
+list-style: none;
+}
+s
+.listthree{
+list-style: none;
+font-weight: 400;
+}
+
+.listthreeitem{
+display: inline;
+padding-left: 2em;
+padding-right: 2em;
+}
+
+.listthreeitem a{
+font-size: 1.5em;
+text-align: center;
+padding: 0%;
+margin: 0%;
+}
+
+
+
+
+.portfolio-title{
+color:white;
+}
+
+li a{
+text-decoration: none;
+text-align: center;
+margin-right: 2.5em;
+}
+
+li a strong{
+font-weight: normal;
+}
+
+li a em{
+font-style: normal;
+}
+
+.boldme {
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.2em;
+color: rgb(100, 100, 100)
+}
+
+.categories{
+text-decoration: underline;
+color: rgb(100, 100, 100)
+}
+
+.particular{
+text-decoration: underline;
+color: #646464;
+}
+
+.background-color{
+background-color: rgba(240, 248, 255, 0.534);
+}
+
+.socialmedia {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.social {
+    border-style: solid;
+    border-radius: 6em;
+    border-color: white;
+    border-width: 0.2em;
+    width: 18%;
+    display: inline-block;
+    margin-right: 9%;
+    
+}
+
+.listthreeitem {
+    font-size: 3em;
+}
+
+.email {
+    margin: 1em;
+    text-align: center;
+    font-size: 4em;
+    display: block;
+  }
+
+.subject {
+    margin: 1em;
+    text-align: center;
+    font-size: 4em;
+    display: block;
+  }
+
+.message {
+    margin: 1em;
+    text-align: center;
+    font-size: 4em;
+    display: block;
+  }
+
+.contact-title{
+    padding-top: 4em;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+.listtwo{
+
+
+}
+
+.send-button{
+    padding: 1.6em;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-bottom: 5em;
+    font-size: 1.4em;
+    text-align: center;
+    color: #646464;
+    border-radius: 1em;
+    font-weight: 800;
+}
+
+.contact-info{
+    text-align: center;
+    font-size:2.2em;
+}
