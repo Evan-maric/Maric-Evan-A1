@@ -150,26 +150,18 @@ background-color: rgb(221, 216, 210);
 }
     
 
-.email {
-    margin: 1em;
+.input {
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
     display: block;
+    font-family: 'Courier New', Courier, monospace;
+    padding:.4em;
+    margin:auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
   }
 
-.subject {
-    margin: 1em;
-    text-align: center;
-    font-size: 4em;
-    display: block;
-  }
-
-.message {
-    margin: 1em;
-    text-align: center;
-    font-size: 4em;
-    display: block;
-  }
 
 .contact-title{
     padding-top: 2em;
