@@ -84,35 +84,35 @@ li a{
 }
 
 li a strong{
-font-weight: normal;
+    font-weight: normal;
 }
 
 li a em{
-font-style: normal;
+    font-style: normal;
 }
 
 
 .boldme {
-text-decoration: none;
-font-family: 'righteous', 'Courier New', Courier, monospace;
-font-size: 1.2em;
-color:rgb(116, 116, 116);
+    text-decoration: none;
+    font-family: 'righteous', 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color:rgb(116, 116, 116);
 }
 
 .categories{
-text-decoration: underline;
-color: rgb(100, 100, 100);
-padding-top:3em;
-padding-bottom:1em;
+    text-decoration: underline;
+    color: rgb(100, 100, 100);
+    padding-top:3em;
+    padding-bottom:1em;
 }
 
 .particular{
-text-decoration: underline;
-color: #646464;
+    text-decoration: underline;
+    color: #646464;
 }
 
 .background-color{
-background-color: rgb(221, 216, 210);
+    background-color: rgb(221, 216, 210);
 }
 
 .socialmedia {
