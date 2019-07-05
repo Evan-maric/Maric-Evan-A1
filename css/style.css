@@ -2,70 +2,85 @@
 
 
 body {
-background-color: rgb(183, 207, 207);
-color: rgb(32, 43, 53);
-font-family: 'Times New Roman', Times, serif;
-text-align: center;
+    background-color: #C4B9A4;
+    color: rgb(32, 43, 53);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: linear-gradient(#C4B9A4, rgb(216, 209, 205), rgb(117, 106, 99));
 }
 
 .titlepage{
-font-family: 'Righteous';
-font-size: 3.3em;
+    font-family: 'Righteous';
+    font-size: 3.3em;
+}
+
+.photo{
+    padding: 3em;
+    padding-bottom:1em;
 }
 
 a{
-text-decoration: none;
+    text-decoration: none;
 }
 
 h2{
-font-weight: 400;
-color: white;
-font-size: 2.5em;
-padding-top: 1.2em;
+    font-weight: 400;
+    color: white;
+    font-size: 3.4em;
+    padding-top: 1.2em;
+    font-weight: 500;
 }
 
 h3{
-font-weight: 200;
+    font-weight: 200;
+    font-size: 2.5em;
 }
 
 .listone{
-list-style: none;
+    list-style: none;
+}
 
+.listone > li {
+    padding-top:1em;
+    padding-bottom:1em;
 }
 
 .listtwo{
-list-style: none;
+    list-style: none;
 }
-s
+
 .listthree{
-list-style: none;
-font-weight: 400;
+    list-style: none;
+    font-weight: 400;
+    padding-left: 0px;
 }
 
 .listthreeitem{
-display: inline;
-padding-left: 2em;
-padding-right: 2em;
+    list-style: none;
 }
 
 .listthreeitem a{
-font-size: 1.5em;
-text-align: center;
-padding: 0%;
-margin: 0%;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    text-decoration: none;
+    padding-top:.5em;
+    padding-bottom:.5em;
 }
 
 
 
 
 .portfolio-title{
-color:white;
+    color:white;
 }
 
 li a{
-text-decoration: none;
-text-align: center;
-margin-right: 2.5em;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2.5em;
 }
 
 li a strong{
@@ -76,16 +91,19 @@ li a em{
 font-style: normal;
 }
 
+
 .boldme {
 text-decoration: none;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'righteous', 'Courier New', Courier, monospace;
 font-size: 1.2em;
-color: rgb(100, 100, 100)
+color:rgb(116, 116, 116);
 }
 
 .categories{
 text-decoration: underline;
-color: rgb(100, 100, 100)
+color: rgb(100, 100, 100);
+padding-top:3em;
+padding-bottom:1em;
 }
 
 .particular{
@@ -94,7 +112,7 @@ color: #646464;
 }
 
 .background-color{
-background-color: rgba(240, 248, 255, 0.534);
+background-color: rgb(221, 216, 210);
 }
 
 .socialmedia {
@@ -118,6 +136,20 @@ background-color: rgba(240, 248, 255, 0.534);
     font-size: 3em;
 }
 
+.listtwo li{
+    display: inline-block;
+    grid-template-columns: 1fr,1fr;
+    padding:1.4em;
+}
+    
+.listtwo{
+    background-color:  rgba(221, 216, 210, 0.5);
+    padding: 0em;
+    padding-bottom:4em;
+    padding-top:4em;
+}
+    
+
 .email {
     margin: 1em;
     text-align: center;
@@ -140,23 +172,19 @@ background-color: rgba(240, 248, 255, 0.534);
   }
 
 .contact-title{
-    padding-top: 4em;
+    padding-top: 2em;
     color: white;
     font-size: 4em;
     text-align: center;
 }
 
-.listtwo{
-
-
-}
 
 .send-button{
     padding: 1.6em;
     padding-left: 4em;
     padding-right: 4em;
     margin-bottom: 5em;
-    font-size: 1.4em;
+    font-size: 2em;
     text-align: center;
     color: #646464;
     border-radius: 1em;
@@ -166,4 +194,8 @@ background-color: rgba(240, 248, 255, 0.534);
 .contact-info{
     text-align: center;
     font-size:2.2em;
+}
+
+.copyright{
+    padding:3em;
 }
